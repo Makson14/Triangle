@@ -1,0 +1,15 @@
+D:\Projects\Сишарп\Triangle\bin\Debug\Triangle.exe.config
+D:\Projects\Сишарп\Triangle\bin\Debug\Triangle.exe
+D:\Projects\Сишарп\Triangle\bin\Debug\Triangle.pdb
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.csproj.AssemblyReference.cache
+D:\Projects\Сишарп\Triangle\obj\Debug\MainWindow.g.cs
+D:\Projects\Сишарп\Triangle\obj\Debug\App.g.cs
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle_MarkupCompile.cache
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle_MarkupCompile.lref
+D:\Projects\Сишарп\Triangle\obj\Debug\MainWindow.baml
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.g.resources
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.Properties.Resources.resources
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.csproj.GenerateResource.cache
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.csproj.CoreCompileInputs.cache
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.exe
+D:\Projects\Сишарп\Triangle\obj\Debug\Triangle.pdb

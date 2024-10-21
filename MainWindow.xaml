@@ -1,0 +1,17 @@
+﻿<Window x:Class="Triangle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Triangle"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="450" MinWidth="700" Width="700" Height="450" Background="DeepSkyBlue" ResizeMode="NoResize">
+    <Grid Width="700" Height="450">
+        <Label Content="Введите длины сторон треугольника" Margin="140,101,112,260" FontSize="25px" Foreground="White" Name="t"/>
+        <TextBox Margin="472,205,28,175" Width="200" Height="50" FontSize="30" Visibility="Visible" Name="n3"/>
+        <TextBox Margin="237,205,263,175" Width="200" Height="50" FontSize="30" Visibility="Visible" Name="n2"/>
+        <TextBox Margin="10,197,490,167" Width="200" Height="50" FontSize="30" Visibility="Visible" Name="n1"/>
+        <Button Margin="237,304,263,96" Background="Yellow" FontSize="25px" Height="50px" Width="200px" Name="proverka" Click="proverka_Click" Visibility="Visible">Проверить</Button>
+        <Button Margin="237,304,263,96" Background="Yellow" FontSize="25px" Height="50px" Width="200px" Name="again" Click="again_Click" Visibility="Hidden">Начать снова</Button>
+    </Grid>
+</Window>
