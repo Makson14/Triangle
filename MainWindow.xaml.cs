@@ -27,9 +27,20 @@ namespace Triangle
         
         private void proverka_Click(object sender, RoutedEventArgs e)
         {
-            int a = Convert.ToInt32(n1.Text);
-            int b = Convert.ToInt32(n2.Text);
-            int c = Convert.ToInt32(n3.Text);
+            int a, b, c;
+            try
+            {
+                 a = Convert.ToInt32(n1.Text);
+                 b = Convert.ToInt32(n2.Text);
+                 c = Convert.ToInt32(n3.Text);
+            } catch(Exception ex)
+            {
+                MessageBox.Show("Введите числовое значение");
+                return;
+            }
+            if (a+b < c || a+c<b || b+c <a) { MessageBox.Show("Такого треугольника не существует"); return; }
+            if (a<0 || b<0 || c < 0) { MessageBox.Show("Введите положительные значения"); return; }
+            if (a == 0 || b == 0 || c == 0) { MessageBox.Show("Такого треугольника не существует"); return; }
             if (a == b && b == c)
             {
                 t.Content = "Треугольник равносторонний";
